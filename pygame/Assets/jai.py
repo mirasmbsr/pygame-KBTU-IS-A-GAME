@@ -5,14 +5,12 @@ import os
 
 # Инициализация Pygame
 pygame.init()
-
 # Определение цветов
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 ORANGE = (255, 165, 0)  # RGB color for orange
-
 # Настройки окна
 width, height = 800, 600
 screen = pygame.display.set_mode((width, height))
